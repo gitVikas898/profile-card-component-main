@@ -67,9 +67,11 @@ body{
     display: grid;
     place-items: center;
     background-color: var(--clr-Dark-cyan);
-    background-repeat: no-repeat;
-    background-position-x: 30.5rem;
-    background-position-y: 37rem;
+    background-image: url("images/bg-pattern-top.svg") ,url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position:-48rem -58rem , 36rem 19rem;
+
 }
 /* class selected styles */
 
